@@ -1,1 +1,2 @@
-def ()
+class Score()
+    pass

@@ -1,4 +1,5 @@
-class DiceGame
+class DiceGame:
+    print("Welcometo Dice Game")
 
     def load_scores():
         pass
@@ -7,7 +8,9 @@ class DiceGame
         pass
 
     def play_game():
-        pass
+        user_rolls = random.randint(1,6)
+
+        cpu_roll = randint (1,6)
 
     def show_top_scores():
         pass

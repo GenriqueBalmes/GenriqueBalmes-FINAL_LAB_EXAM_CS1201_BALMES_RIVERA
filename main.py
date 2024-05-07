@@ -24,7 +24,7 @@ class GameSystem:
         username = input("Enter your username (4 characters long) :")
         password = input("Enter your password (8 characters long)")
 
-        if: len(username) == 4 and len(password) == 8:
+        if len(username) == 4 and len(password) == 8:
             self.users[username] = password
             print("Registration successful")
         
@@ -35,7 +35,7 @@ class GameSystem:
         print("Login")
         username = input("Enter your username: ")
         password = input("Enter your password: ")
-        if username: 
+        
 
-            
+
 
